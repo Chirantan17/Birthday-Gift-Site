@@ -1,0 +1,148 @@
+html, body 
+{
+    background: linear-gradient(purple,blue);
+    margin: 0;
+    padding: 0;
+    border:5px solid yellow; 
+    font-family: 'Happy Monkey', cursive;
+}
+.text
+{
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-align: center;
+}
+.pic
+{
+    border:5px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.header
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#age
+{
+    background-color:palevioletred;
+    padding: 10px 16px;
+    border-radius:9px;
+    margin-bottom:5px;
+    
+}
+#bdate
+{
+    margin-top:5px;
+    background-color:palevioletred;
+    padding: 4px 8px;
+    border-radius:5px; 
+    
+}
+.g1
+{
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+.hint
+{
+    margin-top: 3px; 
+}
+.gift-tittle
+{
+    margin-bottom: 3px;
+}
+.gift-img
+{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid white; 
+    border-radius: 5px;
+    background-image: url("gift.jpg");
+    background-size:cover; 
+}
+#gift-img-happy:hover
+{
+    background-image: url("giphy.gif");
+}
+#gift-img-hot:hover
+{
+    background-image: url("hot.gif");
+}
+#gift-img-describe:hover
+{
+    background-image: url("genius.gif");
+}
+#gift-img-badass:hover
+{
+    background-image: url("badass.gif");
+}
+#gift-img-cheers
+{
+    height: 200px;
+    margin-bottom: 50px;
+}
+#gift-img-cheers:hover
+{
+    background-image: url("cheers.gif");
+}
+#footer
+{
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    margin: 40px auto 20px; 
+}
+a
+{
+    color: deepskyblue;
+}
+
+/*
+html formatting
+button-> open another link
+element selector
+is this corse enough?
+*/
+
+/*
+Group selector
+   h1,h2,h3
+   {
+       text-shadow: 0px 0px 4px red;
+   }
+
+1.flex-direction:row
+
+justify-content :aligns items horizontally(x- axis)
+                :start,center,end,space-between,space-around;
+                
+align-items : aligns items vertically(y- axis)
+            :start,center,end;
+            :by default->stretch
+            
+flex-direction:row or column
+               :by default- row
+   
+               
+2.flex-direction:column
+
+justify-content :aligns items vertically(y- axis)
+                :start,center,end;
+                :by default->stretch
+                
+align-items :aligns items horizontally(x- axis)
+            :start,center,end,space-between,space-around;
+            
+3.div:hover->hover-class
+         ->when the cursor is moved upon it
+         ->the background changes
+         
+4.'#' takes higher precedence than '.'
+
+*/
